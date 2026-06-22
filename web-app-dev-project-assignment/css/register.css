@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #0d6efd !important;
+    font-weight: bold;
+}
+
+/* Header */
+h1 {
+    font-weight: 700;
+}
+
+.lead {
+    color: #555;
+}
+
+/* Registration card */
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease;
+}
+
+/* Form inputs */
+.form-control,
+.form-select {
+    border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+/* Submit button */
+.btn-primary {
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    transform: scale(1.02);
+    transition: 0.2s ease;
+}
+
+/* Payment notice */
+.payment-note {
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 12px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+}
