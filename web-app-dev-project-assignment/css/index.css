@@ -37,3 +37,29 @@ section {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .accordion-item {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .table {
+    color: white;
+}
+
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+    background-color: #2d2d2d;
+    color: white;
+    border-color: #555;
+}
