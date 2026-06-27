@@ -65,24 +65,62 @@ footer {
     color: white;
 }
 
+/* Headings and paragraphs */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode p,
+.dark-mode label,
+.dark-mode span,
+.dark-mode li {
+    color: white;
+}
+
+/* Cards */
 .dark-mode .card {
     background-color: #1e1e1e;
     color: white;
 }
 
-.dark-mode .accordion-item {
+/* Accordion */
+.dark-mode .accordion-item,
+.dark-mode .accordion-button,
+.dark-mode .accordion-body {
     background-color: #1e1e1e;
     color: white;
 }
 
-.dark-mode .table {
+/* Tables */
+.dark-mode .table,
+.dark-mode .table th,
+.dark-mode .table td {
     color: white;
 }
 
+/* Forms */
 .dark-mode input,
 .dark-mode textarea,
 .dark-mode select {
     background-color: #2d2d2d;
     color: white;
     border-color: #555;
+}
+
+/* Placeholder text */
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+    color: #cccccc;
+}
+
+/* Links */
+.dark-mode a {
+    color: #66b3ff;
+}
+
+/* Footer */
+.dark-mode footer {
+    color: white;
 }
